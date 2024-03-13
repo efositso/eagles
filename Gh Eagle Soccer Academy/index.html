@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Football Team</title>
+    <style>
+      body {
+        font-family: verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: yellow;
+        color: black;
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      nav {
+        background-color: #444;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0 10px;
+      }
+
+      .container {
+        max-width: 100%;
+        left: 0;
+        right: 0;
+      }
+
+      .banner {
+        margin-top: 20px;
+      }
+
+      .banner img {
+        width: 100%;
+        max-width: auto;
+        height: auto;
+      }
+
+      .about {
+        padding: 0 250px;
+      }
+
+      .contact {
+        margin-top: 70px;
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .footer {
+        background-color: #444;
+        color: bisque;
+        text-align: center;
+        padding: 10px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .team-banner {
+          flex-direction: column;
+        }
+
+        .team-banner img {
+          margin-bottom: 20px;
+        }
+
+        .about {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ghana Eagles Soccer Academy</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#">Players</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+      <div class="banner">
+        <img src="images/bg1.jpeg" alt="Football Team" />
+      </div>
+    </div>
+
+    <div id="about" class="about">
+      <h2 style="text-align: center; margin-top: 50px">ABOUT US</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ipsam
+        perferendis rem iste sequi, similique odio omnis assumenda, vel eaque
+        dignissimos porro totam debitis possimus laboriosam quasi necessitatibus
+        ducimus saepe! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Alias minus, ipsam explicabo ab et animi tenetur culpa autem delectus
+        aperiam doloribus odit! Eos odit architecto est modi. Esse, quisquam
+        velit.
+      </p>
+    </div>
+
+    <div id="contact" class="contact">
+      <h2>Visit Us</h2>
+      <p>Lotsubuer, Great, Old Ningo</p>
+      <p>Phone: 024 517 3225</p>
+      <p>JF28+H8F, Ho, Volta 0233</p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d127023.63432435364!2d0.19796264849068834!3d5.786442556330242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x10208bd4807a9621%3A0x39a9b1da77b84558!2sLotsubuer%2C%20Great%2C%20Old%20Ningo!3m2!1d5.7864485!2d0.28036459999999996!5e0!3m2!1sen!2sgh!4v1710233422188!5m2!1sen!2sgh"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy;2024 Ghana Eagles Soccer Academy. Powered by Precious Amu</p>
+    </div>
+  </body>
+</html>
